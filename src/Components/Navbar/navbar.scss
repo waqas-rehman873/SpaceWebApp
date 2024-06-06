@@ -1,0 +1,82 @@
+@mixin greenBtn {
+    font-size: 1rem;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+
+    border-radius: 5px;
+    color: #fff;
+    background-color: green;
+}
+
+.navComp {
+    width: 100%;
+    padding: 0.5rem 2%;
+    display: flex;
+    text-align: center;
+    background: rgba(29, 56, 77, 255);
+    color: #fff;
+    position: fixed;
+    z-index: 99999;
+    justify-content: space-between;
+    .logoNav {
+        margin-right: 1rem;
+        transition: transform 0.3s;
+
+        &:hover {
+            transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+        }
+        a {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            font-size: 1.15rem;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            justify-content: center;
+            text-transform: uppercase;
+            font-family: Audiowide;
+
+            h3 {
+                color: #fc5;
+                font-size: 1.15rem;
+                font-family: Audiowide;
+                font-weight: bold;
+            }
+            img {
+                width: 2rem;
+                height: 2rem;
+                margin-right: 1rem;
+            }
+        }
+    }
+    .screenBtn {
+        @include greenBtn;
+        visibility: hidden;
+    }
+    .navLinks {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .wideScreenBtn {
+            @include greenBtn;
+        }
+
+        justify-content: center;
+        a {
+            text-decoration: none;
+            color: #fff;
+            padding: 0 1.5rem;
+            font-size: 1.17rem;
+            align-self: center;
+            border-bottom: 1px transparent;
+            &:hover {
+                border-bottom: 1px solid #fc5;
+            }
+        }
+    }
+}

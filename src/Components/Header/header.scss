@@ -1,0 +1,88 @@
+.header {
+    .headerBg {
+        background-image: linear-gradient(rgba(45, 45, 45, 0.5), rgba(45, 45, 45, 0.5)),
+            url("../../assets/pics/bg2.jpg");
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+        min-height: 100vh;
+        padding: 8rem 0 4rem;
+        position: relative;
+        .headerContent {
+            flex-direction: column;
+            text-align: center;
+            width: 100%;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            h1 {
+                font-family: Audiowide;
+                font-size: 3rem;
+                span {
+                    color: #fc5;
+                }
+            }
+            p {
+                font-size: 1.5rem;
+                line-height: 133%;
+                margin-bottom: 2rem;
+            }
+
+            .statusbar {
+                background-color: rgba(51, 51, 51, 0.7);
+                border-radius: 0.2rem;
+                padding: 0.2rem;
+                color: #fff;
+                font-size: 1.6rem;
+                letter-spacing: 1px;
+                margin-bottom: 3rem;
+                .status {
+                    display: inline-flex;
+                    margin-left: 0.6rem;
+                    align-items: center;
+                    svg {
+                        color: #fc5;
+                        margin-right: 0.3rem;
+                    }
+                    small {
+                        padding-left: 4px;
+                        margin-right: 0.3rem;
+                        padding-right: 4px;
+                    }
+                    span {
+                        font-size: 1.6rem;
+                        margin-right: 0.3rem;
+                        margin-left: 0.3rem;
+                    }
+                    .greenbg {
+                        background-color: green;
+                        color: #fff;
+                        font-size: 1.6rem;
+                        padding: 0.2rem 0.4rem;
+                        border-radius: 0.3rem;
+                    }
+                }
+            }
+            .videoContainer {
+                width: 100%;
+                justify-content: center;
+                display: flex;
+                margin-top: 2rem;
+                .video {
+                    width: 80%;
+                    height: 30rem;
+                    // background-color: #fff;
+                    iframe {
+                        width: 100%;
+                        height: 30rem;
+                        border: 2px solid #fc5;
+                    }
+                }
+            }
+        }
+    }
+}
