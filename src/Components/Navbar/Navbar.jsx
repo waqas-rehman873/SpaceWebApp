@@ -17,10 +17,10 @@ const Navbar = () => {
             <button className="screenBtn">Online</button>
             <div className="navLinks">
                 <button className="wideScreenBtn">Online</button>
-                <Link to="/vote">Vote</Link>
+                <Link to="https://space-engineers.com/server/89839/">Vote</Link>
                 <Link to="/play">Play</Link>
-                <Link to="/donate">Donate</Link>
-                <Link to="/guide">Guide</Link>
+                <Link to="https://www.patreon.com/upsdwn/creators">Donate</Link>
+                <Link to="/guide/#guideSection">Guide</Link>
                 <Link to="/home">Home</Link>
             </div>
         </nav>

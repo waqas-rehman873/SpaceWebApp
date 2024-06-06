@@ -25,9 +25,11 @@
     .logoNav {
         margin-right: 1rem;
         transition: transform 0.3s;
+        will-change: transform;
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
 
         &:hover {
-            transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+            transform: perspective(1000px) rotateX(5.28deg) rotateY(17.04deg) scale3d(1.2, 1.2, 1.2);
         }
         a {
             display: flex;

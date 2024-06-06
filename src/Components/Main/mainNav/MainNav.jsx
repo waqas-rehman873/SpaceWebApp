@@ -4,18 +4,18 @@ import { Link } from "react-router-dom";
 const MainNav = () => {
     return (
         <section className="mainNav">
-            <ul>
+            <ul className="mainNavUl">
                 <li>
                     <Link to="/GridConverter">Grid Converter </Link>
                 </li>
                 <li>
-                    <Link to="/Locations">Locations </Link>
+                    <Link to="/guide/location">Locations </Link>
                 </li>
                 <li>
                     <Link to="/Lore">Lore </Link>
                 </li>{" "}
                 <li>
-                    <Link to="/Ores&Ingots">Ores & Ingots </Link>
+                    <Link to="/guide/oresIngots">Ores & Ingots </Link>
                 </li>{" "}
                 <li>
                     <Link to="/Rules">Rules </Link>

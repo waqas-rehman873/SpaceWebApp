@@ -10,15 +10,61 @@ body {
 .App {
     @import "./Components/Navbar/navbar.scss";
     @import "./Components/Header/header.scss";
+    .mainNav {
+        padding: 2.5rem;
+        border-top: 1px solid #fc5;
+        border-bottom: 1px solid #fc5;
+        background-color: #1d384d;
+
+        .mainNavUl {
+            list-style-type: none;
+            // color: #fff;
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 1.2rem;
+            margin: 0 auto;
+            justify-content: space-around;
+            width: 60%;
+            li {
+                border-radius: 5px;
+                margin-bottom: 0.7rem;
+                padding: 0.4rem 1rem;
+                background-color: #fc5;
+                width: 30%;
+                text-align: center;
+                // display: flex;
+                // justify-content: center;
+                &:hover {
+                    background-color: #333;
+                    border: 1px solid #fc5;
+                    color: #fc5;
+                    transform: scale(1.2);
+                    a {
+                        color: #fc5;
+                    }
+                }
+                a {
+                    text-decoration: none;
+                    color: black;
+                    cursor: pointer;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    @import "./Components/Main/mainComp/guideDefault/guide.scss";
     @import "./Components/Main/mainContent.scss";
     @import "./Components/Footer/footer.scss";
 }
 // media queries
 @media (max-width: 1024px) {
-    .App .locationsSection .secondScreenBox .celestialBodies {
+    .App .bgSection .secondScreenBox .celestialBodies {
         // align-items: center;
         display: flex;
         flex-flow: column;
+    }
+    .App .mainNav .mainNavUl li {
+        width: 40%;
     }
 }
 @media (max-width: 768px) {
@@ -42,5 +88,8 @@ body {
     }
     .header section .headerContent {
         align-items: stretch;
+    }
+    .App .mainNav .mainNavUl li {
+        width: 60%;
     }
 }

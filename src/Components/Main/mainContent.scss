@@ -1,45 +1,4 @@
-.mainNav {
-    padding: 2.5rem;
-    border-top: 1px solid #fc5;
-    border-bottom: 1px solid #fc5;
-    background-color: #1d384d;
-
-    ul {
-        list-style-type: none;
-        // color: #fff;
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 auto;
-        justify-content: space-around;
-        width: 60%;
-        li {
-            border-radius: 10px;
-            margin-bottom: 0.7rem;
-            padding: 0.4rem 1rem;
-            background-color: #fc5;
-            width: 30%;
-            text-align: center;
-            // display: flex;
-            // justify-content: center;
-            &:hover {
-                background-color: #333;
-                border: 1px solid #fc5;
-                color: #fc5;
-                transform: scale(1.2);
-                a {
-                    color: #fc5;
-                }
-            }
-            a {
-                text-decoration: none;
-                color: black;
-                cursor: pointer;
-                width: 100%;
-            }
-        }
-    }
-}
-.locationsSection {
+.bgSection {
     background-image: url("../../assets/pics/sp.jpg");
     background-position: 50%;
     background-repeat: no-repeat;
