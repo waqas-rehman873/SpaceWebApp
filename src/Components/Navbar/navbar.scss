@@ -17,7 +17,7 @@
     padding: 0.5rem 2%;
     display: flex;
     text-align: center;
-    background: rgba(29, 56, 77, 255);
+    background: rgba(29, 56, 77, 0.8);
     color: #fff;
     position: fixed;
     z-index: 99999;
@@ -75,9 +75,9 @@
             padding: 0 1.5rem;
             font-size: 1.17rem;
             align-self: center;
-            border-bottom: 1px transparent;
+            border-bottom: 2px solid transparent;
             &:hover {
-                border-bottom: 1px solid #fc5;
+                border-bottom: 2px solid #fc5;
             }
         }
     }

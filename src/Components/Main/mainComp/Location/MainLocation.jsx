@@ -6,7 +6,7 @@ import Asteroids from "./Asteroids/Asteroids.jsx";
 import Stations from "./stations/Stations.jsx";
 const MainLocation = () => {
     return (
-        <section className="bgSection">
+        <main className="bgSection">
             <section className="secondScreenBox">
                 <LocationHead />
                 <Planets />
@@ -14,7 +14,7 @@ const MainLocation = () => {
                 <Asteroids />
                 <Stations />
             </section>
-        </section>
+        </main>
     );
 };
 

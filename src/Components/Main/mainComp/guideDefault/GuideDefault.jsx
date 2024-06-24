@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const GuideDefault = () => {
     return (
-        <section className="guideSection" id="guideSection">
+        <main className="guideSection" id="guideSection">
             <section className="guideScreenBox">
                 <article className="guideHead">
                     <h1 className="h1Heading">Welcome to the guide</h1>
@@ -24,7 +24,7 @@ const GuideDefault = () => {
                     </p>
                 </article>
             </section>
-        </section>
+        </main>
     );
 };
 
