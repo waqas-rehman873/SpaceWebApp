@@ -12,7 +12,7 @@ const Voxel = () => {
             <p>
                 Planets and asteroids are reset every Friday automatically at 11:55 CET. The
                 asteroid reset will only reset voxels that do not have grids near it.
-            </p>{" "}
+            </p>
             <p>
                 <strong>Asteroid Reset</strong>
             </p>
