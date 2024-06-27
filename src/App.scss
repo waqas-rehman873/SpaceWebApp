@@ -81,6 +81,10 @@ body {
     html {
         font-size: 12px;
     }
+    .App .bgSection .secondScreenBox {
+        max-width: 85%;
+    }
+
     .App .navComp {
         .screenBtn {
             display: block;
@@ -99,7 +103,7 @@ body {
 }
 @media (max-width: 520px) {
     html {
-        font-size: 8px;
+        font-size: 10px;
     }
     .header section .headerContent {
         align-items: stretch;
@@ -112,5 +116,12 @@ body {
         li {
             width: 60%;
         }
+    }
+    .App .bgSection .secondScreenBox .OresSection {
+        align-items: center;
+        flex-direction: column;
+    }
+    .App .bgSection .secondScreenBox {
+        max-width: 75%;
     }
 }

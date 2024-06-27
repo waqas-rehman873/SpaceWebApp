@@ -41,7 +41,7 @@ const Stations = () => {
             bodyName: "Thorium Station",
             textParagraph:
                 "The Thorium Outpost is located on the surface of earth. When activated by a player, it will slowly produce thorium ingots that anyone nearby can grab. This is a perfect place to get thorium early-game. Not a safe zone for players.",
-            gravityDes: "GPS:TorchThoriumOutpost:-58850.74:-5964.11:-8884.03",
+            gravityDes: "GPS:TorchThoriumOutpost:-58850.74:-5964.11",
         },
         {
             bgImg: station5Bg,

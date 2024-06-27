@@ -1,3 +1,4 @@
+// src/App.js
 import { Route, Routes } from "react-router-dom";
 import "./App.scss";
 import Footer from "./Components/Footer/Footer";
@@ -25,7 +26,6 @@ function App() {
                 <Route path="/guide/Rules" element={<Rules />} />
                 <Route path="/guide/Lore" element={<Lore />} />
             </Routes>
-
             <Footer />
         </main>
     );
